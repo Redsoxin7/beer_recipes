@@ -14,8 +14,6 @@
 | `abvmax` | float | Maximum Alcohol By Volume percentage for the style |
 | `ibumin` | float | Minimum International Bitterness Units for the style |
 | `ibumax` | float | Maximum International Bitterness Units for the style |
-| `srmmin` | float | Minimum Standard Reference Method color value for the style |
-| `srmmax` | float | Maximum Standard Reference Method color value for the style |
 
 ## `beer_recipes` DataFrame
 
