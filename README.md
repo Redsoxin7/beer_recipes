@@ -1,12 +1,12 @@
-# US Cities Data Analysis 
+# Beer Recipe Analysis
 ## Objective: 
 ### The goal of this capstone project is to determine the frequency of beer recipes, uploaded to 2 beer recipe websites by style. Style is based on the BJCP Style Guideline published in 2021. In addition to freqency this analysis will include a determination of the percent of the recipes, as entered, are within the tolerance of the beer style. 
 
 ## Overview:
 ### This project involves web scraping beer recipe data from two sources, Beersmith.com and BrewersFriend.com, to create a unified dataset of homebrew and craft beer recipes. The scraped data is merged and cross-referenced with the 2021 BJCP Style Guidelines, which define acceptable ranges for Original Gravity (OG), Final Gravity (FG), Alcohol by Volume (ABV), and International Bitterness Units (IBU) for various beer styles. The analysis focuses on determining the frequency of different beer styles within the dataset and evaluating how well individual recipes align with BJCP-defined style parameters. This project provides insights into homebrewers' adherence to style guidelines and potential trends in recipe formulation.
-    - BJCP.org - The Beer Judge Certification Program is a non-profit organization founded in 1985 that certifies and ranks beer judges worldwide. Its primary purpose is to promote knowledge, understanding, and appreciation of diverse beer, mead, and cider styles, while developing standardized evaluation methods for these beverages.
-    - Beersmith.com - Beersmith.com is a platform centered around home brewing software, offering tools and resources for creating and managing recipes for beer, mead, wine, and cider.
-    - Brewersfriend.com - Brewer's Friend is an online platform designed to assist homebrewers and professional brewers with recipe formulation, brewing calculations, and batch tracking.
+ ###   - BJCP.org - The Beer Judge Certification Program is a non-profit organization founded in 1985 that certifies and ranks beer judges worldwide. Its primary purpose is to promote knowledge, understanding, and appreciation of diverse beer, mead, and cider styles, while developing standardized evaluation methods for these beverages.
+ ###   - Beersmith.com - Beersmith.com is a platform centered around home brewing software, offering tools and resources for creating and managing recipes for beer, mead, wine, and cider.
+ ###   - Brewersfriend.com - Brewer's Friend is an online platform designed to assist homebrewers and professional brewers with recipe formulation, brewing calculations, and batch tracking.
 
 ## Tools & Libraries Summary  
 This project was conducted using Jupyter Notebook within VSCode, running Python 3.13.2 in a virtual environment (venv). Assistance was provided through AI tools, including ChatGPT, Perplexity, and Cursor utilizing Claude-3.7.  
@@ -27,13 +27,13 @@ Cleaning included handling missing values (NaNs) appropriately, standardizing be
 
 2. [bf_recipes.csv](https://www.brewersfriend.com/homebrew-recipes/all-grain/) - scraped data that contains select fields of 100% of the all-grain beer recipes that have been uploaded by users.
 
-3. [styles_2021.json](https://github.com/ascholer/bjcp-styleview/blob/main/styles.json) - dataset that contains the criteria used to judge beer. Will help determine if recipes meet the criteria to be considered a specific style of beer.
+3. [styles_2021.json](https://github.com/ascholer/bjcp-styleview/blob/main/styles.json) - dataset that contains the criteria used to judge beer. Will help determine if recipes meet the criteria to be considered a specific style of beer. (This was acquired from ascholer on github)
 
-4. [Beer_recipe_scrape.ipynb] - Notebook that contains the code to scrape the Beersmith.com website.
+4. Beer_recipe_scrape.ipynb - Notebook that contains the code to scrape the Beersmith.com website.
 
-5. [Brewersfriend.ipynb] & [scrape.py] - notebook & python code to scrape the brewersfriend.com website. Technical issue with saving data required secondary operation.
+5. Brewersfriend.ipynb & scrape.py - notebook & python code to scrape the brewersfriend.com website. Technical issue with saving data required secondary file.
 
-6. [Beer_recipe_scrape.ipynb] - Notebook that contains the code to scrape the Beersmith.com website.
+6. Beer_recipe_scrape.ipynb - Notebook that contains the code to scrape the Beersmith.com website.
 3. **Data_Dictionary.md:** is the custom data dictionary for this project. 
 4. **README.md:** provides overview of the project, information on running the project, sources of information, and description of project features. 
 5. **Cleaning_USCIties_Connectivity.ipynb:** a Jupyter Notebook in which the steps for data cleaning, merging of data sets, calculation of new values, data visualization, and interpretation are located. 
