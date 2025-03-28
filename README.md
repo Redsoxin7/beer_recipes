@@ -45,9 +45,15 @@ Cleaning included handling missing values (NaNs) appropriately, standardizing be
 ### Please see the Data_Dictionary.md file in this repo. 
 
 ## Running the Program:
-### Check that your system meets the following requirements:
-- Ensure you have Python installed. Python 3 is required. This project is written using version 3.11.9. You can download Python from https://www.python.org/downloads/.
-- Ensure you have installed Git. This program is needed to clone the repository. You can download Git from https://git-scm.com/downloads.
+
+To run this project, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/Redsoxin7/beer_recipes.git`
+2. Install the necessary dependencies: `pip install -r requirements.txt`
+3. Explore the primary Jupyter notebook: `Beer_capstone.ipynb`
+
+
+
 
 ### Follow these steps for running the project files locally:
 1. Navigate in your browser to the repository at https://github.com/TinaBaldwin/US_Cities_Data.git
