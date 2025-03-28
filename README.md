@@ -91,11 +91,7 @@ To run this project, follow these steps:
 2. Acquiring data by copying a json file from a github repository.
 3. Loading Data - Read in two CSV data files and json file.
 2. Data preparation - Split columns into additional columns. 
-In the first three sections of Cleaning_USCities_Connectivity.ipynb the data is cleaned, pandas merge completed, and new values are calculated based on the new data set.  
-3. Visualization of data - The fourth section of Cleaning_USCities_Connectivity.ipynb uses Matplotlib to crease 3+ visualizations of data. 
-4. Data Dictionary - Data_Dictionary.md is a custom built data dictionary document. 
-5. Virtual Environment usage - Readme document includes instructions on how to setup a virtual environment. 
-6. interpretation - The fifth section of Cleaning_USCities_Connectivity.ipynb contains the final analysis of the data and future recommendations.
+
 
 
 
