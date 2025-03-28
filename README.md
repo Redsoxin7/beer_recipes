@@ -33,11 +33,13 @@ Cleaning included handling missing values (NaNs) appropriately, standardizing be
 
 5. Brewersfriend.ipynb & scrape.py - notebook & python code to scrape the brewersfriend.com website. Technical issue with saving data required secondary file.
 
-6. Beer_recipe_scrape.ipynb - Notebook that contains the code to scrape the Beersmith.com website.
-3. **Data_Dictionary.md:** is the custom data dictionary for this project. 
-4. **README.md:** provides overview of the project, information on running the project, sources of information, and description of project features. 
-5. **Cleaning_USCIties_Connectivity.ipynb:** a Jupyter Notebook in which the steps for data cleaning, merging of data sets, calculation of new values, data visualization, and interpretation are located. 
-6. **requirements.txt:** this is the file used for pip install of project requirements. 
+6. **Data_Dictionary.md:** is the custom data dictionary for this project. 
+
+7. **README.md:** provides overview of the project, information on running the project, sources of information, and description of project features. 
+
+8. **Beer_capstone.ipynb:** a Jupyter Notebook in which the steps for data cleaning, merging of data sets, calculation of new values, data visualization, and interpretation are located. 
+
+9. **requirements.txt:** this is the file used for pip install of project requirements. 
 
 ## Data Dictionary
 ### Please see the Data_Dictionary.md file in this repo. 
