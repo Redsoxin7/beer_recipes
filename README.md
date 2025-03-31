@@ -106,6 +106,19 @@ To run this project, follow these steps:
 - Selenium
 - bs4(BeautifulSoup)`
 
+### Feature Requirements met
+Feature Selection:  
+**Loading data.** 
+
+| FEATURE  | DIFFICULTY  | COMPLETED |
+| :---- | :---- | :---- |
+| Scrape TWO pieces of data from anywhere on the internet and utilize it in your project.  | Intermediate  | Scraped 2 pieces of data: 1 from BeerSmith.com & 1 from Brewersfriend.com. Also downloaded style\_2021.json from a git repository. |
+| Clean your data and perform a pandas merge with your two data sets, then calculate some new values based on the new data set.   | Intermediate   | Utilized both pandas merge and concat to combine data, calculated values to address missing data, and extracted data to create new columns. |
+| Make 3 matplotlib or seaborn (or another plotting library) visualizations to display your data. | Easy  | Made 6 visualizations to display the data using both matplotlib and seaborn. Made 1 table with rich. |
+| Utilize a virtual environment and include instructions in your README on how the user should set one up | Intermediate  | Utilized a virtual environment with instructions on how to set up in the readme and in the capstone project. |
+| Build a custom data dictionary and include it either in your README or as a separate document. This will only apply if your data set does not already have a data dictionary or if you’re building a custom data set. For an example, see the resources to the right. | Easy  | Created a data dictionary for the combined recipe dataset and also for BJCP style guidelines. |
+| Annotate your code with markdown cells in Jupyter Notebook, write clear code comments, and have a well-written README.md. Tidy up your notebook, and make sure you don’t have any empty cells or incomplete cells that don’t do anything. Make sure it’s all functional before your final github commit. | Intermediate  | Used comments within the code and markdown to help navigate the notebook.  |
+
 
 ## Some Advanced Features of the project (As captured by Gemini-2.5-pro-exp-03-25)
 
