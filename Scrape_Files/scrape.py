@@ -1,9 +1,9 @@
+
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
 import sqlite3
-import openpyxl
 import json
 import random
 
