@@ -154,6 +154,22 @@ Okay, looking at the overall structure and techniques used in your notebook, her
 
 These features showcase more advanced Pandas operations, application of domain knowledge, complex data transformation logic, integration with external files and libraries (`inspect`, `rich`), and detailed visualization control.
 
+## Future Developments
+- Create a Tableau dashboard 
+    - To further analyze the categories and styles.
+    - Determine if there are statistical differences between the recipes from BeerSmith and Brewers Friend.
+- Create additional visualizations to explore the distribution of styles that adhered to the style guidelines.
+- Learn more about Python so I can utilize advanced functions to make my code more productive and reusable.
+
+## Learnings
+- Spent too much time on the cleaning and homogenizing of the data. Didn't leave enough time to explore the data with additional tools like Tableau.
+
+- Should have spent more time on the planning of the project. I went in too many directions when preparing the data for evaluation.
+
+- Having seen some of my classmates projects...I need to use a better system of keeping my layout organized. With better outlining and header management it would have made the flow of the code better and would have allowed me to be more productive.
+
+
+
 
 
 
